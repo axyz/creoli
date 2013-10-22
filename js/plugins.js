@@ -25,12 +25,15 @@
 
 $(function(){
   var swiperParent = $('.swiper-parent').swiper({
-    //Your options here:
+    calculateHeight: true,
+    moveStartThreshold: 100
     //etc..
   });
 
   var swiperVertical = $('.swiper-vertical').swiper({
-    mode: 'vertical'
+    mode: 'vertical',
+    calculateHeight: true,
+    resistance: '100%'
     //etc..
   });
 })
