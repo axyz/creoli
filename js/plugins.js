@@ -27,13 +27,24 @@ $(function(){
   var swiperParent = $('.swiper-parent').swiper({
     calculateHeight: true,
     moveStartThreshold: 100
-    //etc..
   });
 
-  var swiperVertical = $('.swiper-vertical').swiper({
+  var swiperVertical = $('.swiper-vertical-1').swiper({
     mode: 'vertical',
     calculateHeight: true,
     resistance: '100%'
-    //etc..
   });
+
+  var swiperVertical = $('.swiper-vertical-2').swiper({
+    mode: 'vertical',
+    calculateHeight: true,
+    resistance: '100%'
+  });
+
+  var swiperVertical = $('.swiper-vertical-3').swiper({
+    mode: 'vertical',
+    calculateHeight: true,
+    resistance: '100%'
+  });
+
 })
